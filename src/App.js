@@ -10,8 +10,8 @@ function App() {
     const [currentSong, setCurrentSong] = useState(songs[0]);
     return (
         <div className="App">
-            <Song currentSong={currentSong}/>
-            <Player />
+            <Song currentSong={currentSong} />
+            <Player currentSong={currentSong} />
         </div>
     );
 }
