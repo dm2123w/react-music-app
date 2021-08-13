@@ -4,16 +4,33 @@
     left: 0;
     width: 20rem;
     height: 100%;
-    background-color: lightblue;
+    background-color: white;
     box-shadow: 2px 2px 50px rgb(184, 184, 184);
     overflow: scroll;
+    h2 {
+        padding: 2rem;
+    }
 }
 
-.library-song {
+.library-songs {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    padding: 1rem 2rem 1rem 2rem;
+    cursor: pointer;
     img {
         width: 30%;
+    }
+    &:hover {
+        background: rgb(224, 224, 224);
+    }
+}
+
+.song-description {
+    padding: 1rem;
+    h3 {
+        font-size: 1rem;
+    }
+    h4 {
+        font-size: 0.8rem;
     }
 }
