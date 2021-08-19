@@ -88,7 +88,7 @@ const Player = ({
         <div className="player">
             <div className="time-control">
                 <p>{getTime(songInfo.currentTime)}</p>
-                <div className="track">
+                <div className="track" style={{background: `linear-gradient(to right, ${currentSong.color[0]}, ${currentSong.color[1]})`}}>
                     <input
                         min={0}
                         max={songInfo.duration || 0}
