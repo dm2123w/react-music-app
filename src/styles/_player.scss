@@ -9,6 +9,7 @@
 .time-control {
     width: 50%;
     display: flex;
+    align-items: center;
     input {
         width: 100%;
         padding: 1rem 0rem;
@@ -58,5 +59,6 @@ input[type="range"]::-webkit-slider-thumb {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translateX(10%)
+    transform: translateX(0%);
+    pointer-events: none;
 }
